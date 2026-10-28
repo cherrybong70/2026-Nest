@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Segoe UI', sans-serif;
+  background: #fdf6f0;
+  color: #33302e;
+}
+
+a {
+  color: #639922;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: 1px solid #639922;
+  background: #fff;
+  color: #639922;
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin: 2px;
+}
+
+button:hover {
+  background: #eaf3de;
+}
+
+button[type="submit"] {
+  background: #639922;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+}
+
+input, select {
+  font-family: inherit;
+  border: 1px solid #e0d5cc;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+h2 {
+  color: #639922;
+  text-align: center;
+}
+
+#root {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #ffffff;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.08);
+}
+
